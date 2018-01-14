@@ -14,7 +14,9 @@ function sub(num3, num4){
 	return null;
 }
 
-module.exports = {
+var arithmetic = {
 	add: add,
 	sub: sub
 }
+
+module.exports = arithmetic;
