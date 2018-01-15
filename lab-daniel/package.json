@@ -1,0 +1,21 @@
+{
+  "name": "lab-daniel",
+  "version": "1.0.0",
+  "description": "lab 01 daniel logerstedt",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daniellogerstedt/01-node-ecosystem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.1.1"
+  }
+}
