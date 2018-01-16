@@ -37,7 +37,7 @@ describe('arithmetic', () => {
       expect(arithmetic.sub(7, 4)).toEqual(expect.anything());
     });
     test('arithmetic.sub returns difference of two numbers', () => {
-      expect(arithmetic.sub(1, 2)).toEqual(1);
+      expect(arithmetic.sub(2, 1)).toEqual(1);
     });
   });
 });
