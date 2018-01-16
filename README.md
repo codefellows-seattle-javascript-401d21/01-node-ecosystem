@@ -50,3 +50,5 @@ Create a NodeJS module in the lib/ directory named `arithmetic.js` that exports 
 
 ## Documentation
 In your README.md describe the exported values of each module defined in your lib/ directory. Every function description should include it's airty (expected number of paramiters), the expected data for each paramiter (data-type and limitations), and the it's output behavior (for both valid and invalued use). Feel free to write any additional information in your README.md.
+
+I don't super know what this is requesting.
