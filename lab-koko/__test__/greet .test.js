@@ -8,5 +8,8 @@ describe ('Greet Module', function () {
       expect(greet.input).toEqual('');
       expect(greet.input).not.toEqual();
     });
+    it ('should take in the argument world', function(){
+      expect (greet.input).toEqual('Hello World');
+    });
   });
 });
