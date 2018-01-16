@@ -6,7 +6,6 @@ describe('#Greet', function() {
 
   test('should return null if the input is not a string',()=> {
     expect(greet(1)).toEqual(null);
-    expect(greet('World')).toEqual('Hello World');
   });
   test('should return hello world if the first word of the input is world', ()=>{
     expect(greet('World')).toEqual('Hello World');

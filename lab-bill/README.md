@@ -1,4 +1,4 @@
-![CF](https://camo.githubusercontent.com/70edab54bba80edb7493cad3135e9606781cbb6b/687474703a2f2f692e696d6775722e636f6d2f377635415363382e706e67) 01: Node Ecosystem
+<!-- ![CF](https://camo.githubusercontent.com/70edab54bba80edb7493cad3135e9606781cbb6b/687474703a2f2f692e696d6775722e636f6d2f377635415363382e706e67) 01: Node Ecosystem
 ===
 
 ## Submission Instructions
@@ -50,4 +50,12 @@ Create a NodeJS module in the lib/ directory named `arithmetic.js` that exports 
   * Else return the second paramiter subtracted from the first paramiter
 
 ## Documentation
-In your README.md describe the exported values of each module defined in your lib/ directory. Every function description should include it's airty (expected number of paramiters), the expected data for each paramiter (data-type and limitations), and the it's output behavior (for both valid and invalued use). Feel free to write any additional information in your README.md.
+In your README.md describe the exported values of each module defined in your lib/ directory. Every function description should include it's airty (expected number of paramiters), the expected data for each paramiter (data-type and limitations), and the it's output behavior (for both valid and invalued use). Feel free to write any additional information in your README.md. -->
+
+This document contains three main functions/methods: greet, add, and subtract (sub).
+
+The greet function will take in one parameter, and will return null if the given input is not a string. The return value of a proper input will be "Hello" + input.
+
+The add function takes two parameters, and will return the sum of those two numbers. If numbers are not an input in either parameter the function will return null.
+
+The sub function takes two parameters, and will return the difference between the first and second number. If a number is not an input in either parameter the function will return null.
