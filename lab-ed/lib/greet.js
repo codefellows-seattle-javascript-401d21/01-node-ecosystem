@@ -1,8 +1,8 @@
 'use strict'
 
-const greet = module.exports = {}
+module.exports.hello = hello
 
-greet.hello = function(str) {
+function hello(str) {
   if (typeof str != 'string') {
     return null
   }
