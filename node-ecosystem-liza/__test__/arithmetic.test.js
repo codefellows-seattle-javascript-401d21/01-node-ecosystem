@@ -3,23 +3,23 @@
 const math = require('../lib/arithmetic');
 
 describe('Arithmetic Module', function() {
-  describe('#Add', function() {
+  describe('#add', function() {
     it('Test each method for proper use', function() {
-      expect(math.add(3,5)).toEqual(8);
+      expect(math.add(5,3)).toEqual(8);
     });
 
     it('Test each method for improper use', function() {
-      expect(math.add('1','2')).toEqual('improper use');
+      expect(math.add('1','2')).toEqual(null);
     });
   });
 
-  describe('#Subtract', function() {
+  describe('#subtract', function() {
     it('Test each method for proper use', function() {
-      expect(math.subtract(3,5)).toEqual(2);
+      expect(math.subtract(5,3)).toEqual(2);
     });
 
     it('Test each method for improper use', function() {
-      expect(math.subtract('1','2')).toEqual('improper use');
+      expect(math.subtract('1','2')).toEqual(null);
     });
   });
 });
