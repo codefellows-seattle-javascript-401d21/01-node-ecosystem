@@ -1,10 +1,10 @@
-#Greet:
+# Greet:
 
 exports the function greet.
 
 * The greet function has one parameter, which takes a string as an argument. The function will return 'hello ', followed by the string. However, if the input argument is not a string, the function will return null.
 
-#Arithmetic:
+# Arithmetic:
 
 exports the functions add and sub.
 
