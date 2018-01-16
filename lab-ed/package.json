@@ -1,0 +1,18 @@
+{
+  "name": "lab-ed",
+  "version": "1.0.0",
+  "description": "lab 01",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ed",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.1.1"
+  }
+}
