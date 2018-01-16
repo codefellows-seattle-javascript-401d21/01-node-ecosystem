@@ -7,7 +7,7 @@ describe('greet', () =>{
     expect(greet).toBeInstanceOf(Function);
   });
   test('greet arg is not a string', () => {
-    expect(greet(expect.any(! String))).toBe(null);
+    expect(greet(7)).toBe(null);
   });
   test('greet returns hello "str" ', () => {
     const str = 'world';

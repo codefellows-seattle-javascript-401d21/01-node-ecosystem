@@ -7,11 +7,15 @@ describe('arithmetic', () => {
     test('arithmetic.add is a function', () => {
       expect(arithmetic.add).toBeInstanceOf(Function);
     });
-    test('arithmetic.add returns null for NaN', () => {
-      expect(arithmetic.add(expect.any(! Number), expect.any(! Number))).toEqual(null);
+    test('arithmetic.add returns null for two non numbers', () => {
+      expect(arithmetic.add('hungry', 'hippo')).toEqual(null);
     });
-    test('arithmetic.add returns null for NaN', () => {
-      expect(arithmetic.add(1, expect.any(! Number))).toEqual(null);
+    test('arithmetic.add returns null for one non-number', () => {
+      expect(arithmetic.add(7, 'hippo')).toEqual(null);
+    });
+
+    test('arithmetic.add returns not null for two numbers', () => {
+      expect(arithmetic.add(7, 4)).toEqual(expect.anything());
     });
 
     test('arithmetic.add returns sum of two numbers', () => {
@@ -24,10 +28,13 @@ describe('arithmetic', () => {
       expect(arithmetic.sub).toBeInstanceOf(Function);
     });
     test('arithmetic.sub returns null for NaN', () => {
-      expect(arithmetic.sub(expect.any(! Number), expect.any(! Number))).toEqual(null);
+      expect(arithmetic.sub('hungry', 'hippo')).toEqual(null);
     });
     test('arithmetic.sub returns null for NaN', () => {
-      expect(arithmetic.sub(1, expect.any(! Number))).toEqual(null);
+      expect(arithmetic.sub(7, 'hippo')).toEqual(null);
+    });
+    test('arithmetic.sub returns not null for two numbers', () => {
+      expect(arithmetic.sub(7, 4)).toEqual(expect.anything());
     });
     test('arithmetic.sub returns difference of two numbers', () => {
       expect(arithmetic.sub(1, 2)).toEqual(1);
