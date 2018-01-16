@@ -7,7 +7,7 @@ describe ('Math Module', function(){
     it('should be a + b = c', function(){
       expect(math.add(3,5)).toEqual(8);
     });
-    it ('should be a + b = null', function(){
+    it ('should be `a` + `b` = null', function(){
       expect(math.add('3','5')).toEqual(null);
     });
   });
@@ -15,7 +15,7 @@ describe ('Math Module', function(){
     it ('should be a - b = c', function(){
       expect(math.subtract(5,3)).toEqual(2);
     });
-    it ('should be a - b = null', function(){
+    it ('should be `a` - `b` = null', function(){
       expect(math.subtract('5','3')).toEqual(null);
     });
   });
