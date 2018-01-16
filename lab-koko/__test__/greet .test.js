@@ -5,11 +5,10 @@ const greet = require ('../lib/greet.js');
 describe ('Greet Module', function () {
   describe ('#Input', function() {
     it ('should take in a string', function(){
-      expect(greet.input).toEqual('');
-      expect(greet.input).not.toEqual();
+      expect(greet(123)).toEqual('null');
     });
     it ('should take in the argument world', function(){
-      expect (greet.input).toEqual('Hello World');
+      expect (greet('World')).toEqual('Hello World');
     });
   });
 });
