@@ -8,7 +8,7 @@ describe('Greet Module', function() {
       expect(greet.hello(typeof 1234)).not.toBe('string');
     });
     it('should return input name contatenated with "hello"', function() {
-      expect(greet.hello('susan')).toBe('hello susan');
+      expect(greet.hello('world')).toBe('hello world');
     });
     it('should return null if input is not a string', function() {
       expect(greet.hello(1234)).toBeNull();
