@@ -1,0 +1,26 @@
+{
+  "name": "lab-01",
+  "version": "1.0.0",
+  "description": "Demonstrate unit tests using jest api.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stevegcarpenter/01-node-ecosystem.git"
+  },
+  "author": "Steven Carpenter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevegcarpenter/01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/stevegcarpenter/01-node-ecosystem#readme",
+  "dependencies": {
+    "jest": "^22.1.1"
+  }
+}
