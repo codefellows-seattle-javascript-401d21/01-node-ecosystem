@@ -1,4 +1,4 @@
-module.exports = function greeting(string) {
+module.exports = function greet(string) {
   if (typeof(string) === 'string') {
     return 'Hello ' + string;
   }
