@@ -10,11 +10,11 @@ const greet = require('../lib/greet');
 describe('Greet Module', function() {
   describe('#Null', function() {
     it('expects the greet module to return null when supplied non-string values', function() {
-      expect(greet()).toBe('');
+      expect(greet.input()).toBe('');
     });
 
     it('expects the greet module to return hello world', function() {
-      expect(greet()).toBe('hello world');
+      expect(greet.input()).toBe('hello world');
     });
   });
 });
