@@ -2,6 +2,7 @@
 
 const arithmetic = requrire('./lib/arithmetic');
 
-// describe('arithmetic', () =>{
-//   describe('#', () =>)
-// })
+describe('arithmetic', () =>{
+  test('#', () =>{
+  });
+});
