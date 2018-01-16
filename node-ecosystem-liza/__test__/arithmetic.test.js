@@ -12,6 +12,7 @@ describe('Arithmetic Module', function() {
       expect(math.add('1','2')).toEqual('improper use');
     });
   });
+
   describe('#Subtract', function() {
     it('Test each method for proper use', function() {
       expect(math.subtract(3,5)).toEqual(2);
