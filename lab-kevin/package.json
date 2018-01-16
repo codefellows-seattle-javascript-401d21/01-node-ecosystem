@@ -1,0 +1,22 @@
+{
+  "name": "lab-kevin",
+  "version": "1.0.0",
+  "description": "01 node ecosystem lab",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "node-ecosystem",
+    "jest",
+    "modules"
+  ],
+  "author": "Kevin Miller",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.1.1"
+  }
+}
