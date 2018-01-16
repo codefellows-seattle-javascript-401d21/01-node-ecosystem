@@ -1,0 +1,19 @@
+{
+  "name": "lab01-joel",
+  "version": "1.0.0",
+  "description": "-Write a test that expects the greet module to return null when you supply non string values",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "jest": "^22.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT"
+}
