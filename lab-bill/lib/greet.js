@@ -1,8 +1,8 @@
 module.exports = function greeting(string) {
-  if (typeOf(string) === 'string') {
+  if (typeof(string) === 'string') {
     return 'Hello ' + string;
   }
-  if (typeOf(string) !== 'string' ) {
+  if (typeof(string) !== 'string' ) {
     return null;
   }
 };
