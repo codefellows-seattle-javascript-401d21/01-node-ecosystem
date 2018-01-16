@@ -1,0 +1,25 @@
+{
+  "name": "lab-jesus",
+  "version": "1.0.0",
+  "description": "practice setting up tests",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sundownspecial/01-node-ecosystem.git"
+  },
+  "author": "Jesus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sundownspecial/01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/sundownspecial/01-node-ecosystem#readme",
+  "dependencies": {
+    "jest": "^22.1.1"
+  }
+}
