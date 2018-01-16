@@ -1,4 +1,6 @@
-module.exports = function add(x, y) {
+const arithmetic = module.exports = {};
+
+arithmetic.add = function (x, y) {
   if (isNaN(x) || isNaN(y)) {
     return null;
   } else{
@@ -6,7 +8,7 @@ module.exports = function add(x, y) {
   }
 };
 
-module.exports = function sub(x, y) {
+arithmetic.sub = function (x, y) {
   if (isNaN(x) || isNaN(y)) {
     return null;
   } else{
